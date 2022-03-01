@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: ;
 }
 
 body {
@@ -17,8 +18,21 @@ body {
 
 .structure {
   display: grid;
-  grid-template-columns: 38% 1fr;
+  grid-template-columns: 30% 1fr;
   grid-gap: 3rem;
+}
+
+.objectives {
+  text-align: center;
+}
+
+.objectives p {
+  font-size: 0.9rem;
+}
+
+.aboutme p {
+  font-size: 0.9rem;
+  text-align: center;
 }
 
 h1 {
@@ -36,15 +50,14 @@ h2 {
 }
 
 h3 {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   text-transform: uppercase;
-  color: #322001
-;
+  color: #322001;
   margin-bottom: 1rem;
 }
 
 p {
-  font-size: 0.75rem;
+  font-size: 0.90rem;
   line-height: 1rem;
 }
 
@@ -87,15 +100,14 @@ ul {
 }
 
 .contact ul {
-  margin-top: -1.5rem;
+  margin-top: -1rem;
 }
 
 .contact li {
-  text-align: right;
+  text-align: center;
   text-transform: uppercase;
   font-size: 0.75rem;
-  padding: 1rem;
-  border-bottom: 0.75px solid black;
+  padding: 0.35rem;
 }
 
 span {
