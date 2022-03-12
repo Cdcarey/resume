@@ -1,25 +1,19 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  background-color: ;
-}
-
 body {
-  font-family: georgia, sans-serif;
-  padding: 1rem;
-}
-
-.initials {
-  font-family: cursive, lucida;
-  font-size: 6rem;
-  padding: -3rem;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .structure {
-  display: grid;
-  grid-template-columns: 30% 1fr;
-  grid-gap: 3rem;
+  width: 70rem;
+  padding: 2rem;
+  margin: 2rem auto;
+  border: 1px solid #2f4f4f;
+  border-radius: 5px;
+}
+
+p {
+  font-size: 1rem;
 }
 
 .objectives {
@@ -27,17 +21,7 @@ body {
 }
 
 .objectives p {
-  font-size: 0.9rem;
-}
-
-.aboutme p {
-  font-size: 0.9rem;
-  text-align: center;
-}
-
-h1 {
-  font-size: 1.75rem;
-  text-transform: uppercase;
+  font-size: 1.5rem;
 }
 
 h2 {
@@ -49,25 +33,30 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
-h3 {
-  font-size: 0.85rem;
+.aboutme h2 {
+  text-align: center;
+}
+
+.aboutme p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.5rem;
   text-transform: uppercase;
-  color: #322001;
-  margin-bottom: 1rem;
 }
 
-p {
-  font-size: 0.90rem;
-  line-height: 1rem;
-}
-
-h3 + p {
-  margin-top: -1rem;
+h3 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-decoration: solid;
   margin-bottom: 1rem;
 }
 
 div + div {
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 li + li {
@@ -87,48 +76,39 @@ ul {
   text-align: center;
 }
 
-.profile img {
-  border-radius: 10000px;
-  width: 10rem;
-  height: 10rem;
-}
-
 .profile p {
   margin-bottom: 1rem;
-  color: #322001;
   font-size: 2rem;
 }
 
-.contact ul {
-  margin-top: -1rem;
-}
-
-.contact li {
+.contact h2 {
   text-align: center;
-  text-transform: uppercase;
-  font-size: 0.75rem;
-  padding: 0.35rem;
 }
 
 span {
-  font-size: 0.75rem;
+  font-size: 1rem;
+  line-height: normal;
+}
+
+.skills h2 {
+  text-align: center;
 }
 
 .skills > ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 0.5rem;
-  font-size: 0.75rem;
+  grid-gap: 2rem;
+  font-size: 1rem;
   margin-top: -0.85rem;
+  text-indent: 25%;
 }
 
-.timeline {
-  padding-top: 1rem;
+.education h2 {
+  text-align: center;
 }
 
-.event {
-  display: grid;
-  grid-template-columns: 5ch 1fr;
+.experience h2 {
+  text-align: center;
 }
 
 .info {
